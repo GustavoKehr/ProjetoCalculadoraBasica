@@ -44,31 +44,11 @@ section > div select {
     margin-top: 10px;
     text-align: center;
 }
-div#resultadoa {
-    
-    
-}
 
-input.ad:hover {
+input:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-
-input.su:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-input.mu:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-input.di:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 
 input.lim {
     background-color: rgba(255, 255, 255, 0.911);
@@ -79,11 +59,6 @@ input.lim {
     left: 50%;
     top: 80%;
     transform: translate(-50%, -100%);
-}
-
-input.lim:hover{
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 footer {

@@ -24,7 +24,6 @@ let resd = document.getElementById('resultadod')
         adicao.focus()
         adicao.value = ''
         adicao2.value = ''
-        // taba.value = ''
     }
 
     function subtrair() {
