@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <section>
+        <div id="adc">
+            <h1>Calculadora Básica</h1>
+            <label for="txa">Adicao</label>
+            <input type="number" name="txa" id="txa"> +
+            <input type="number" name="txa2" id="txa2">
+            <input type="button" value="Somar" onclick="somar()" class="ad">
+            <div id="resultadoa" style="display: inline;"></div>
+            <div id="sub">
+                <label for="txs">Subtracao</label>
+                <input type="number" name="txs" id="txs"> -
+                <input type="number" name="txs2" id="txs2">
+                <input type="button" value="Subtrair" onclick="subtrair()" class="su">
+                <div id="resultados" style="display: inline;"></div>
+            </div>
+            <div id="mul">
+                <label for="txm">Multiplicacao</label>
+                <input type="number" name="txm" id="txm"> *
+                <input type="number" name="txm2" id="txm2">
+                <input type="button" value="Multiplicar" onclick="multiplicar()" class="mu">
+            <div id="resultadom" style="display: inline;"></div>
+            </div>
+            <div id="div">
+                <label for="txd">Divisao</label>
+                <input type="number" name="txd" id="txd"> /
+                <input type="number" name="txd2" id="txd2">
+                <input type="button" value="Dividir" onclick="dividir()" class="di">
+            <div id="resultadod" style="display: inline;"></div>
+            </div>
+        </div>
+    </section>
+    <input type="reset" value="Limpar" onclick="limpar()" class="lim">
+    <footer>
+        <p>Site criado com intuito de aprendizagem. Criado por <a href="https://github.com/GustavoKehr" target="_blank" rel="next"><em>GustavoKehr</em></a> &copy;</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

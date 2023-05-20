@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(52, 75, 52);
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.568);
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+    padding-left: 20px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 565px;
+}
+
+section > div > h1 {
+    text-align: center;
+}
+
+section  input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+section > div select {
+    width: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+div#resultadoa {
+    
+    
+}
+
+input.ad:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input.su:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input.mu:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+input.di:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+input.lim {
+    background-color: rgba(255, 255, 255, 0.911);
+    padding: 5px;
+    width: 100px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -100%);
+}
+
+input.lim:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.582);
+    position: absolute;
+    top: 95.5%;
+    left: 30%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer p {
+    text-align: center;
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+}
+
+
